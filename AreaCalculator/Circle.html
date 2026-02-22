@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Circle Page</h1>
+    <nav>
+        <ul>
+            <li> 
+                <a href="/circle">Circle Calculator</a>
+            </li>
+            <li>
+            <a href="/triangle">Triangle Calculator</a>
+            </li>
+        </ul>
+    </nav>
+    <form action="/circle" method="POST">
+        <label for="radius">
+            <input type="number" 
+            id="radius"
+            name="radius"
+            placeholder="Enter Radius">
+        </label>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
